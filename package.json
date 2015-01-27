@@ -8,8 +8,6 @@
     "lodash": "^3.0.0"
   },
   "devDependencies": {
-    "6to5": "^2.13.7",
-    "6to5-loader": "^2.0.0",
     "css-loader": "^0.9.1",
     "jsx-loader": "^0.12.2",
     "raw-loader": "^0.5.1",

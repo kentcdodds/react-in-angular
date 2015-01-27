@@ -25,8 +25,8 @@ var DataGrid = React.createClass({
         </tr>
       );
     });
-    var headers = _.map(columnHeaders, function(header) {
-      return <th>Column {header + 1}</th>;
+    var headers = _.map(columnHeaders, function(header, index) {
+      return <th key={index}>Column {header + 1}</th>;
     });
     return (
       <div className="data-grid">
