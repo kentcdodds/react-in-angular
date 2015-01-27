@@ -9,13 +9,15 @@
     "ng-stats": "^2.0.4"
   },
   "devDependencies": {
+    "6to5": "^2.13.7",
     "6to5-loader": "^2.0.0",
     "css-loader": "^0.9.1",
+    "jsx-loader": "^0.12.2",
     "raw-loader": "^0.5.1",
+    "react": "^0.12.2",
     "style-loader": "^0.8.3",
-    "webpack-dev-server": "^1.7.0",
     "webpack": "^1.5.3",
-    "6to5": "^2.13.7"
+    "webpack-dev-server": "^1.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

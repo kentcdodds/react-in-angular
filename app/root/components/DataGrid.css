@@ -1,22 +1,22 @@
-.grid-o-data table,
-.grid-o-data th,
-.grid-o-data td {
+.data-grid table,
+.data-grid th,
+.data-grid td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-.grid-o-data th,
-.grid-o-data td {
+.data-grid th,
+.data-grid td {
   padding: 6px;
   text-align: center;
 }
 
-.grid-o-data .high {
+.data-grid .high {
   background-color: green;
   color: white;
 }
 
-.grid-o-data .low {
+.data-grid .low {
   background-color: red;
   color: white;
 }

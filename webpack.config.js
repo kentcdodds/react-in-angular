@@ -22,7 +22,7 @@ module.exports = {
       {test: /\.html$/, loader: 'raw', exclude: exclude},
       {test: /\.css$/, loader: 'style!css', exclude: exclude},
       {test: /\.js$/, loader: '6to5', exclude: exclude},
-      {test: /\.jsx$/, loader: 'jsx?harmony', exclude: exclude}
+      {test: /\/components\/.*?\.js$/, loader: 'jsx?harmony', exclude: exclude}
     ]
   }
 };
