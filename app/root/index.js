@@ -1,7 +1,4 @@
-var ngModule = angular.module('react♥Angular__ಠ_ರೃ', []);
-ngModule.constant('_', require('lodash'));
-ngModule.value('gridValues', {
-  columns: 40,
-  rows: 40
-});
-require('./MainCtrl')(ngModule);
+var React = require('react');
+var App = require('./App');
+
+React.render(<App />, document.body);
