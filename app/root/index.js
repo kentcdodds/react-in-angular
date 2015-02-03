@@ -5,4 +5,3 @@ ngModule.value('gridValues', {
   rows: 40
 });
 require('./MainCtrl')(ngModule);
-require('./directives/grid-o-data')(ngModule);
